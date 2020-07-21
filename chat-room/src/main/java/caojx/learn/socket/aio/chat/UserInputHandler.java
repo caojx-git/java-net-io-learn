@@ -3,6 +3,9 @@ package caojx.learn.socket.aio.chat;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * 客户端发送消息
+ */
 public class UserInputHandler implements Runnable {
 
     private ChatClient chatClient;

@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * 外观模式，包装ServletRequest，内部全部调用内部成员的方法
- * 这样做的好处就是：我们再Request类中定义的parse函数，在RequestFacade中就消失了，被屏蔽了，
+ * 这样做的好处就是：我们在Request类中定义的parse函数，在RequestFacade中就消失了，被屏蔽了，
  * 我们要求操作Servlet的开发人员只能操作RequestFacade这个类对象的方法，通过这个对象，他们就没有办法
  * 去调用Request类中不属于ServletRequest接口定义的任何函数了
  */
